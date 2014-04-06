@@ -1,0 +1,22 @@
+rake aborted!
+SocketError: getaddrinfo: nodename nor servname provided, or not known
+/Users/udakaayumi/.rvm/gems/ruby-2.0.0-p353/gems/httparty-0.13.0/lib/httparty/request.rb:93:in `perform'
+/Users/udakaayumi/.rvm/gems/ruby-2.0.0-p353/gems/httparty-0.13.0/lib/httparty.rb:499:in `perform_request'
+/Users/udakaayumi/.rvm/gems/ruby-2.0.0-p353/gems/httparty-0.13.0/lib/httparty.rb:451:in `post'
+/Users/udakaayumi/.rvm/gems/ruby-2.0.0-p353/gems/hipchat-1.1.0/lib/hipchat/room.rb:91:in `send'
+/Users/udakaayumi/.rvm/gems/ruby-2.0.0-p353/gems/hipchat-1.1.0/lib/hipchat/rails3_tasks.rb:44:in `block (2 levels) in <top (required)>'
+/Users/udakaayumi/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+/Users/udakaayumi/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => hipchat:send
+(See full trace by running task with --trace)
+rake aborted!
+SocketError: getaddrinfo: nodename nor servname provided, or not known
+/Users/udakaayumi/.rvm/gems/ruby-2.0.0-p353/gems/httparty-0.13.0/lib/httparty/request.rb:93:in `perform'
+/Users/udakaayumi/.rvm/gems/ruby-2.0.0-p353/gems/httparty-0.13.0/lib/httparty.rb:499:in `perform_request'
+/Users/udakaayumi/.rvm/gems/ruby-2.0.0-p353/gems/httparty-0.13.0/lib/httparty.rb:451:in `post'
+/Users/udakaayumi/.rvm/gems/ruby-2.0.0-p353/gems/hipchat-1.1.0/lib/hipchat/room.rb:91:in `send'
+/Users/udakaayumi/.rvm/gems/ruby-2.0.0-p353/gems/hipchat-1.1.0/lib/hipchat/rails3_tasks.rb:44:in `block (2 levels) in <top (required)>'
+/Users/udakaayumi/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `eval'
+/Users/udakaayumi/.rvm/gems/ruby-2.0.0-p353/bin/ruby_executable_hooks:15:in `<main>'
+Tasks: TOP => hipchat:send
+(See full trace by running task with --trace)
