@@ -15,7 +15,7 @@ namespace :hipchat do
 		hash.each { |data|
 			total += data["duration"]
 		}
-
+		#test
 		hour = total / 60 / 60
 		client = HipChat::Client.new("6ece3454ac2e42e41faa3f384d5957")
 		client['test'].send('Ayumi Udaka', " Total working time for this week is #{hour} h")
